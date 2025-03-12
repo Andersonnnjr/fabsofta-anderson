@@ -1,5 +1,9 @@
 # Fábrica de Software 2025/1
 
+## Nome da Equipe
+- Anderson Carlos Brüske Júnior
+
+
 ## Propostas de Projeto
 - Nome do sistema Sistema de Gestão de treinos e dietas
     - Funcionalidade 1 Cadastro de Usuário 
@@ -12,6 +16,32 @@
     - Funcionalidade 8 Lembretes e Notificações
     - Funcionalidade 9 Cadastro de exercicios e alimentos
     - Funcionalidade 10 Área de configurações e Preferencias
+
+
+
+## Livro Eng Software Moderna
+[Eng. Soft Moderna - Requisitos](https://engsoftmoderna.info/cap3.html)
+
+## Histórias de Usuário
+- Como um novo usuário, eu gostaria de me cadastrar no sistema para acessar meus treinos e dietas personalizados.
+
+- Como um treinador, eu gostaria de cadastrar treinos para meus alunos para que possam segui-los de forma estruturada.
+
+- Como um aluno, eu gostaria de registrar meu progresso nos treinos para acompanhar minha evolução.
+
+- Como um nutricionista, eu gostaria de cadastrar dietas personalizadas para meus pacientes para orientá-los melhor.
+
+- Como um aluno, eu gostaria de registrar minhas refeições diárias para acompanhar minha adesão à dieta.
+
+- Como um treinador ou nutricionista, eu gostaria de gerenciar os perfis dos meus alunos para acompanhar sua evolução.
+
+- Como um aluno, eu gostaria de visualizar relatórios sobre minha evolução física para analisar meu desempenho.
+
+- Como um usuário, eu gostaria de receber lembretes sobre treinos e refeições para manter minha rotina.
+
+- Como um administrador, eu gostaria de cadastrar novos exercícios e alimentos para manter o banco de dados atualizado.
+
+- Como um usuário, eu gostaria de configurar minhas preferências para personalizar minha experiência no sistema.
 
 ## Comandos do Git
 
