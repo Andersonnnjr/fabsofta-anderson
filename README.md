@@ -74,3 +74,12 @@ git push -u origin main
   - Máquina Virtual do Java - Interpreta o Bytecode(.class) do Java para linguagem 
  - JDK - Java Development Kit
   - Compilar o código Java em bytecode
+
+### Criação de projeto no VSCode com Maven
+1) teclar F1
+2) digitar Java e escolher a opção create new java project
+3) project type: MAVEN
+4) Archetype: No Archetype
+5) pacote digitar domínio ao contrário ex: br.univille
+6) nome do projeto em minúsculo
+7) usar a pasta sugerida pelo vscode
