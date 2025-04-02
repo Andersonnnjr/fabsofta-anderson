@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ProjetofabsofttreinoedietaApplication<projetofabsofttreinoedieta>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "br.univille.projetofabsofttreinoedieta.ProjetofabsofttreinoedietaApplication",
+            "projectName": "projetofabsofttreinoedieta",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

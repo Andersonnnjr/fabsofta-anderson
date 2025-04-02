@@ -1,0 +1,81 @@
+@startuml
+package br.univille.projetofabsofttreinoedieta.entity {
+    class Usuario {
+        - nome : String
+        - email : String
+        - senha : String
+        - tipo : String
+    }
+
+    class Treino {
+        - nome : String
+        - descricao : String
+        - exercicios : ListString
+        - duracao : int
+        - frequencia : int
+    }
+
+    class Progresso {
+        - data : LocalDate
+        - treino : String
+        - desempenho : String
+        - observacoes : String
+    }
+
+    class Dieta {
+        - nome : String
+        - descricao : String
+        - alimentos : ListString
+        - caloriasTotais : int
+    }
+
+    class Refeicao {
+        - data : LocalDate
+        - alimentos : ListString
+        - caloriasConsumidas : int
+    }
+
+    class Aluno {
+        - nome : String
+        - idade : int
+        - peso : double
+        - altura : double
+        - objetivos : String
+    }
+
+    class Relatorio {
+        - tipo : String
+        - periodo : String
+        - dados : String
+        - conclusoes : String
+    }
+
+    class Exercicio {
+        - nome : String
+        - descricao : String
+        - grupoMuscular : String
+        - caloriasQueimadas : int
+    }
+
+    class Alimento {
+        - nome : String
+        - descricao : String
+        - calorias : int
+        - nutrientes : String
+    }
+
+    class Configuracao {
+        - preferencias : String
+        - notificacoes : boolean
+        - lembretes : boolean
+    }
+
+    // Relationships (if any are known)
+    Aluno --> Treino : "realiza"
+    Aluno --> Dieta : "segue"
+    Aluno --> Progresso : "registra"
+    Aluno --> Refeicao : "registra"
+    Treino --> Exercicio : "contém *"
+    Dieta --> Alimento : "contém *"
+}
+@enduml

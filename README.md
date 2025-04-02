@@ -3,7 +3,6 @@
 ## Nome da Equipe
 - Anderson Carlos Brüske Júnior
 
-
 ## Propostas de Projeto
 - Nome do sistema Sistema de Gestão de treinos e dietas
     - Funcionalidade 1 Cadastro de Usuário 
@@ -16,8 +15,6 @@
     - Funcionalidade 8 Lembretes e Notificações
     - Funcionalidade 9 Cadastro de exercicios e alimentos
     - Funcionalidade 10 Área de configurações e Preferencias
-
-
 
 ## Livro Eng Software Moderna
 [Eng. Soft Moderna - Requisitos](https://engsoftmoderna.info/cap3.html)
@@ -43,16 +40,36 @@
 
 - Como um usuário, eu gostaria de configurar minhas preferências para personalizar minha experiência no sistema.
 
+## Entidades Identificadas
+- Usuário
+  - Atributos: nome, email, senha, tipo (aluno, treinador, nutricionista, administrador)
+- Treino
+  - Atributos: nome, descrição, exercícios, duração, frequência
+- Progresso
+  - Atributos: data, treino, desempenho, observações
+- Dieta
+  - Atributos: nome, descrição, alimentos, calorias totais
+- Refeição
+  - Atributos: data, alimentos, calorias consumidas
+- Aluno
+  - Atributos: nome, idade, peso, altura, objetivos
+- Relatório
+  - Atributos: tipo, período, dados, conclusões
+- Exercício
+  - Atributos: nome, descrição, grupo muscular, calorias queimadas
+- Alimento
+  - Atributos: nome, descrição, calorias, nutrientes
+- Configuração
+  - Atributos: preferências, notificações, lembretes
+
 ## Comandos do Git
 
 ### Instalação 
 [Git Bash]
 
-
 ## Configuração inicial
 git config --global user.name "NOME DO USUARIO NO GITHUB"
 git config --global user.email "EMAIL DA CONTA DO GITHUB"
-
 
 ## Tipos de mensagens do commit
 feat: (new feature for the user, not a new feature for build script)
