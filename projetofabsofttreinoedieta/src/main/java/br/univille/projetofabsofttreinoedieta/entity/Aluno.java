@@ -57,4 +57,24 @@ public class Aluno {
     public void setObjetivos(String objetivos) {
         this.objetivos = objetivos;
     }
+
+    public Object getEmail() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getEmail'");
+    }
+
+    public void setEmail(Object email) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setEmail'");
+    }
+
+    public Object getDataNascimento() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getDataNascimento'");
+    }
+
+    public void setDataNascimento(Object dataNascimento) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setDataNascimento'");
+    }
 }
